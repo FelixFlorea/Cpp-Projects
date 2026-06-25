@@ -142,11 +142,14 @@ polynomial<T> P = {1,2,3}; // from initializer list: 1 + 2X + 3X^2
 
 ## Roadmap
 
-- [ ] FFT multiplication (O(n log n), for large polynomials with floating-point coefficients)
-- [ ] NTT multiplication (O(n log n), exact arithmetic for modular coefficients)
-- [ ] Square matrix type satisfying `ring`, enabling polynomial-matrix arithmetic (useful for linear recurrences)
-- [ ] Full LaTeX documentation of all functions
-
+- [ ] FFT multiplication — O(n log n), floating-point coefficients  
+- [ ] NTT multiplication — O(n log n), exact modular arithmetic  
+- [ ] Polynomial composition P(Q(x))  
+- [ ] Higher-order derivatives, nth antiderivative  
+- [ ] GCD of polynomials (Euclidean algorithm over fields)  
+- [ ] Formal power series mod X^n (inverse, exp, log)  
+- [ ] Square matrix type satisfying `ring` (for linear recurrences)  
+- [ ] Full LaTeX reference documentation
 ---
 
 ## Project structure
